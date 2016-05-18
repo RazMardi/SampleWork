@@ -19,8 +19,8 @@ template <typename T>
 void Swap(T& a, T&b)
 {
     T temp = b;
-	b = a;
-	a = temp;
+    b = a;
+    a = temp;
 }
     
 /******************************************************************************
@@ -34,17 +34,17 @@ template <typename T>
 void BubbleSort(T a[], int size)
 {
     for (int i = 0; i < size - 1; i++)
-	{
-		int swaps = 0;
-		for (int j = 0; j < size - i - 1; j++)
-		{
-			if (a[j] > a[j + 1])
-			{
-				Swap(a[j], a[j + 1]);
-				swaps = 1;
-			}
-		}
-		if (swaps == 0)
-			break; 
-	}
+    {
+       int swaps = 0;
+       for (int j = 0; j < size - i - 1; j++)
+       {
+           if (a[j] > a[j + 1])
+	   {
+	      Swap(a[j], a[j + 1]);
+	      swaps = 1;
+	   }
+        }
+	if (swaps == 0)
+		break; 
+    }
 }
