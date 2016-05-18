@@ -34,7 +34,7 @@ them if they are out of order. Time Complexity; Best Case: O(N), Worst Case: O(N
 template <typename T>
 void BubbleSort(T a[], unsigned size)
 {
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size - 1; i++) 
     {
         unsigned swaps = 0;
         for (unsigned j = 0; j < size - i - 1; j++)
