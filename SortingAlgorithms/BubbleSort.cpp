@@ -1,5 +1,5 @@
 /*****************************************************************************/
-/*
+/*!
 @file   BubbleSort.cpp
 @author Razmig Mardirossian
 @par    email: r.mardirossian\@digipen.edu
@@ -45,6 +45,6 @@ void BubbleSort(T a[], int size)
 	   }
         }
 	if (swaps == 0)
-	    break; 
+		break; 
     }
 }
