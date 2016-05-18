@@ -18,11 +18,11 @@ make multiple passes on the container, it is inefficient on larger data sets.
 template <typename T>
 void Swap(T& a, T&b)
 {
-	T temp = b;
+    T temp = b;
 	b = a;
 	a = temp;
 }
-
+    
 /******************************************************************************
 \fn void BubbleSort(T a[], int size)
 @brief A bubble sort works by comparing adjacent items and exchanging 
