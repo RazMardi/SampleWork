@@ -22,15 +22,15 @@ Best Case: O(N), Worst Case: O(N^2)
 template <typename T>
 void InsertionSort(T a[], int size)
 {
-	for (int i = 1; i < size; i++)
+    for (int i = 1; i < size; i++)
+    {
+        int j = i;
+	int current = a[i];
+	while ((j > 0) && (a[j - 1] > current))
 	{
-		int j = i;
-		int current = a[i];
-		while ((j > 0) && (a[j - 1] > current))
-		{
-			a[j] = a[j - 1];
-			j--;
-		}
-		a[j] = current;
+	    a[j] = a[j - 1];
+	    j--;
 	}
+	a[j] = current;
+    }
 }
