@@ -45,6 +45,6 @@ void BubbleSort(T a[], int size)
 	   }
         }
 	if (swaps == 0)
-		break; 
+	    break; 
     }
 }
