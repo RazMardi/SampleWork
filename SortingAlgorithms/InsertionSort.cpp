@@ -14,7 +14,7 @@ portion.
 #include <iostream>
 
 /******************************************************************************
-\fn void InsertionSort(T a[], int size)
+\fn void InsertionSort(T a[], unsigned size)
 @brief sorts an array via the Insertion Sort Algorithm. Time Complexity;
 Best Case: O(N), Worst Case: O(N^2)
 @param a the array to be sorted
