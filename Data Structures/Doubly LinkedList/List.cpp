@@ -49,7 +49,7 @@ namespace DataStructures
 
 /******************************************************************************
 \fn List& operator=(const List& rhs)
-@brief Assigns new contents to the list, replacing its current contents
+@brief assigns new contents to the list, replacing its current contents
 @param rhs the data used for assignment 
 @return a reference to this list
 *******************************************************************************/
@@ -332,8 +332,7 @@ namespace DataStructures
 @return a reference to the first element in the list
 *******************************************************************************/
     template <typename Data>
-    const Data& List<Data>::Front() const
-    {
+    const Data& List<Data>::Front() const{
         return _head->data;
     }
 
@@ -343,8 +342,7 @@ namespace DataStructures
 @return a reference to the last element in the list
 *******************************************************************************/
     template <typename Data>
-    const Data& List<Data>::Back() const
-    {
+    const Data& List<Data>::Back() const {
         return _tail->data;
     }
 
@@ -354,8 +352,7 @@ namespace DataStructures
 @return the size of the list 
 *******************************************************************************/
     template <typename Data>
-    unsigned List<Data>::Size() const
-    {
+    unsigned List<Data>::Size() const {
         return _size;
     }
 }
