@@ -10,6 +10,7 @@
 #ifndef ITEM_H
 #define ITEM_H
 
+#include <iostream>
 #include <string>
 
 enum ItemType { Weapon, Armor, Consumable };

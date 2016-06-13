@@ -60,6 +60,5 @@ int main()
     
     end = clock();
     std::cout << "Elapsed Time: " << (double)(end - begin) / CLOCKS_PER_SEC << std::endl;
-    std::getchar();
     return 0;
 }

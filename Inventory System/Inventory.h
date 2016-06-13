@@ -30,8 +30,8 @@ public:
     unsigned GetCapacity() const { return _capacity; };
 
 private:
-    unsigned _size;
     unsigned _capacity;
+    unsigned _size;
     std::vector<Item*> _items;
 };
 #endif
