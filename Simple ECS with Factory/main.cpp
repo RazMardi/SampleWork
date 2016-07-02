@@ -5,7 +5,7 @@ int main()
     Factory::Create();
     Factory::Init();
 
-    Entity* temp = Factory::CreateEntity();
+    Entity* temp = Factory::GetInstance()->CreateEntity();
     temp->AddComponent(CPT_Transform);
     temp->AddComponent(CPT_RigidBody);
 
