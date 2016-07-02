@@ -6,4 +6,4 @@ Another alternative is to register the components upon creation to the factory i
 
 Type deduction occurs through the GetComponent(CPT_TYPE) function. In order to deduce the type a GETCPT call is required. 
 
-For alternative ways and a more advanced topic refer to the "Reflection" directory.
+For alternative ways and a more advanced topic refer "Type Reflection in C++" or "C++ MetaProgramming"
