@@ -5,7 +5,6 @@
 @par    email: r.mardirossian\@digipen.edu
 @date   6/19/2016
 @brief  helper class for generating unique id's on components and entities
-engine.
 */
 /*****************************************************************************/
 #include "IDGenerator.h"
