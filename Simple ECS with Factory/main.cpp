@@ -13,6 +13,6 @@ int main()
     std::cout << temp->GETCPT(RigidBody)->GetName() << std::endl;
 
     delete temp;
-    Factory::Destroy();
+    Factory::GetInstance()->Destroy();
     return 0;
 }
