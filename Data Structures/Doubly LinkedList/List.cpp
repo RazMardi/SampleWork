@@ -85,7 +85,7 @@ namespace DataStructures
 /******************************************************************************
 \fn Node *CreateNode(const Data& value) const
 @brief utility function for allocating anew node 
-@param the value to be stored inside the newly created node
+@param value the value to be stored inside the newly created node
 @return a pointer to the newly created node
 *******************************************************************************/
     template <typename Data>
@@ -120,6 +120,7 @@ namespace DataStructures
 /******************************************************************************
 \fn void PushBack(const Data& value)
 @brief adds an item to the end of the list
+@param value the data stored in the item
 *******************************************************************************/
     template <typename Data>
     void List<Data>::PushBack(const Data& value)
@@ -139,6 +140,7 @@ namespace DataStructures
 /******************************************************************************
 \fn void PushFront(const Data& value)
 @brief adds an item to the front of the list
+@param value the data stored in the item
 *******************************************************************************/
     template <typename Data>
     void List<Data>::PushFront(const Data& value)

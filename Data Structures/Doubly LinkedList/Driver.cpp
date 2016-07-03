@@ -257,7 +257,5 @@ int main()
     Test9();  //Insert
     Test10(); //Copy Constructor
     Test11(); //Assignemnt operator
-
-    std::cin.get();
     return 0;
 }

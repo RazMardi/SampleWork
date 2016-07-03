@@ -57,5 +57,5 @@ namespace DataStructures
         mutable unsigned _size;  
     };
 }
-#endif
 #include "List.cpp"
+#endif
