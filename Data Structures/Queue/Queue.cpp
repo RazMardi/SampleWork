@@ -21,6 +21,8 @@ namespace DataStructures
     Queue<Data>::Queue(int capacity) : _size(0), _capacity(capacity)
     {
         _array = new Data[capacity];
+        for (int i = 0; i < capacity; ++i)
+            _array[i] = -1;
         _tail = _capacity - 1;
         _head = 0;
     }
@@ -136,7 +138,7 @@ namespace DataStructures
 /******************************************************************************
 \fn Data Top() const
 @brief grabs the element at the front or top of the Queue
-@return Data, the top element in the Queue
+@return Data, the top element in the Queue, if the Queue is empty -1
 *******************************************************************************/
     template <typename Data>
     Data Queue<Data>::Top() const
@@ -147,7 +149,7 @@ namespace DataStructures
 /******************************************************************************
 \fn Data Bottom() const
 @brief grabs the element at the bottom or rear of the Queue
-@return Data, the rear or bottom element in the Queue
+@return Data, the rear or bottom element in the Queue, if the Queue is empty -1
 *******************************************************************************/
     template <typename Data>
     Data Queue<Data>::Bottom() const
