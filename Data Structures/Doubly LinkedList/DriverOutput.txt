@@ -1,0 +1,182 @@
+-------------------------------------------------
+Testing PushBack
+List:    1   2   3   4   5   6   7   8   9  10
+
+-------------------------------------------------
+Testing PushFront
+List:   10   9   8   7   6   5   4   3   2   1
+
+-------------------------------------------------
+Testing PopFront
+List:   10   9   8   7   6   5   4   3   2   1
+
+List:    9   8   7   6   5   4   3   2   1
+
+List:    8   7   6   5   4   3   2   1
+
+List:    7   6   5   4   3   2   1
+
+List:    6   5   4   3   2   1
+
+List:    5   4   3   2   1
+
+List:    4   3   2   1
+
+List:    3   2   1
+
+List:    2   1
+
+List:    1
+
+List: 
+
+Failed to delete : No Items in ListList: 
+
+-------------------------------------------------
+Testing PopBack
+List:   10   9   8   7   6   5   4   3   2   1
+
+List:   10   9   8   7   6   5   4   3   2
+
+List:   10   9   8   7   6   5   4   3
+
+List:   10   9   8   7   6   5   4
+
+List:   10   9   8   7   6   5
+
+List:   10   9   8   7   6
+
+List:   10   9   8   7
+
+List:   10   9   8
+
+List:   10   9
+
+List:   10
+
+List: 
+
+Failed to delete : No Items in ListList: 
+
+-------------------------------------------------
+Testing Clear
+List:   10   9   8   7   6   5   4   3   2   1
+
+List: 
+
+List:    1   2   3   4   5   6   7   8   9  10
+
+List: 
+
+-------------------------------------------------
+Testing Find
+List:   10   9   8   7   6   5   4   3   2   1
+
+Found 10 at: 0
+Found 5 at: 5
+Found 3 at: 7
+Item does not exist: Found 12 at: -1
+Item does not exist: Found 15 at: -1
+Found 1 at: 9
+
+-------------------------------------------------
+Testing Remove Node
+List:   10   9   8   7   6   5   4   3   2   1
+
+Removing 5 from List:   10   9   8   7   6   4   3   2   1
+
+Removing 2 from List:   10   9   8   7   6   4   3   1
+
+Removing 1 from List:   10   9   8   7   6   4   3
+
+Removing 7 from List:   10   9   8   6   4   3
+
+Removing 8 from List:   10   9   6   4   3
+
+Item does not exist: Removing 12 from List:   10   9   6   4   3
+
+Item does not exist: Removing 5 from List:   10   9   6   4   3
+
+Removing 3 from List:   10   9   6   4
+
+
+-------------------------------------------------
+Testing Front/Back/Size
+List:   10   9   8   7   6   5   4   3   2   1
+Front Node: 10 Size: 10
+
+List:    9   8   7   6   5   4   3   2   1
+Front Node: 9 Size: 9
+
+List:    9   8   7   6   5   4   3   2   1
+Back Node: 1 Size: 9
+
+List:    9   8   7   6   5   4   3   2
+Back Node: 2 Size: 8
+
+-------------------------------------------------
+Testing Reverse
+List:   10   9   8   7   6   5   4   3   2   1
+
+List:    1   2   3   4   5   6   7   8   9  10
+
+List:   10   9   8   7   6   5   4   3   2   1
+
+Failed to Reverse : No Items in List
+
+-------------------------------------------------
+Testing Insert
+List:   10   9   8   7   6   5   4   3   2   1
+
+Inserting 12 at position 3
+List:   10   9   8  12   7   6   5   4   3   2   1
+
+Inserting 15 at position 2
+List:   10   9  15   8  12   7   6   5   4   3   2   1
+
+Inserting 1 at position 0
+List:    1  10   9  15   8  12   7   6   5   4   3   2   1
+
+Inserting 20 at position 12
+List:    1  10   9  15   8  12   7   6   5   4   3   2   1  20
+
+Inserting 8 at position 14
+Cannot Insert at position 14 : Out of Bounds
+
+-------------------------------------------------
+Testing Copy Constructor
+List:   10   9   8   7   6   5   4   3   2   1
+ Size: 10
+
+List2:   10   9   8   7   6   5   4   3   2   1
+ Size: 10
+
+List2: 
+ Size: 0
+
+List3: 
+ Size: 0
+
+-------------------------------------------------
+Testing Assignment Operator
+List:   10   9   8   7   6   5   4   3   2   1
+ Size: 10
+
+List2:    1   2   3   4   5   6   7   8   9  10
+ Size: 10
+
+Assigning list 2 to list
+List2:   10   9   8   7   6   5   4   3   2   1
+ Size: 10
+
+List3:    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
+ Size: 20
+
+Assigning list 2 to list3
+List2:    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
+ Size: 20
+
+Assigning list 3 to list
+List3:   10   9   8   7   6   5   4   3   2   1
+ Size: 10
+

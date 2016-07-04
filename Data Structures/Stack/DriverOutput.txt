@@ -1,0 +1,48 @@
+-------------------------------------------------
+Testing Push/Pop
+
+Stack:   10   9   8   7   6   5   4   3   2   1
+Stack:    9   8   7   6   5   4   3   2   1
+Stack:    8   7   6   5   4   3   2   1
+Stack:    7   6   5   4   3   2   1
+Stack:    6   5   4   3   2   1
+Stack:    5   4   3   2   1
+Stack:    4   3   2   1
+Stack:    3   2   1
+Stack:    2   1
+Stack:    1
+Stack: 
+-------------------------------------------------
+Testing Clear
+
+Stack:   10   9   8   7   6   5   4   3   2   1
+Stack: 
+Stack:   10   9   8   7   6   5   4   3   2   1
+Stack: 
+-------------------------------------------------
+Testing Top
+
+Stack:   10   9   8   7   6   5   4   3   2   1
+Top: 10
+
+Stack:    9   8   7   6   5   4   3   2   1
+Top: 9
+
+Stack:    8   7   6   5   4   3   2   1
+Top: 8
+
+-------------------------------------------------
+Testing Equality
+
+Stack:   10   9   8   7   6   5   4   3   2   1
+Stack2:   10   9   8   7   6   5   4   3   2   1
+Equal: 1
+
+Stack:    8   7   6   5   4   3   2   1
+Stack2:    8   7   6   5   4   3   2   1
+Equal: 0
+
+Stack: 
+Stack2: 
+Equal: 1
+
