@@ -34,5 +34,6 @@ int main()
     std::cout << (*eMonster) << std::endl;
     std::cout << (*mTrans) << std::endl;
 
+    std::getchar();
     return 0;
 }

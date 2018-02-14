@@ -12,6 +12,7 @@
 namespace Core
 {
     REGISTER_CPT("RigidBody", RigidBody::Create);
+    std::string RigidBody::name = "RigidBody";
 
     RigidBody::RigidBody() : Component()
     {

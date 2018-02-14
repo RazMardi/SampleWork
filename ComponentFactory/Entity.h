@@ -62,14 +62,11 @@ namespace Core
     template <typename T>
     T* Entity::GetComponent()
     {
-        std::type_index tIndex = typeid(T);
-        for (ComponentContainer::const_iterator it = _components.begin(); it != _components.end(); ++it)
-        {
-            std::type_index index = typeid(*it->second);
-            if (tIndex == index)
-                return static_cast<T*>(it->second);
+        ComponentContainer::const_iterator it = _components.find(T::name);
+        if (it != _components.end()) {
+            return static_cast<T*>(it->second);
         }
-        throw EntityException("GetComponent: ", tIndex.name(), _id);
+        throw EntityException("GetComponent: ", T::name, _id);
     }
 }
 #endif

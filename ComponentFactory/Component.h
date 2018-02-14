@@ -24,13 +24,10 @@ namespace Core
         Component(){}
         virtual ~Component() {}
 
-        void SetOwner(Entity* entity)         { _owner = entity; }
-        void SetName(std::string name)        { _name = name;    }
-        const std::string&  GetName()  const  { return _name;    }
-        Entity*             GetOwner() const  { return _owner;   }
+        void    SetOwner(Entity* entity)       { _owner = entity; }
+        Entity* GetOwner() const               { return _owner;   }
 
     protected:
-        std::string _name;
         Entity* _owner;
     };
 }

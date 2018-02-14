@@ -33,10 +33,9 @@ namespace Factory
         ComponentMap::const_iterator it = _componentMap.find(name);
         if (it == _componentMap.end())
         {
-            throw ComponentFactoryException("Unkown Component: ", name);
+            throw ComponentFactoryException("Unknown Component: ", name);
         }
         Core::Component* retVal = (it->second)();
-        retVal->SetName(name);
         return retVal;
     }
 

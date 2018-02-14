@@ -74,11 +74,6 @@ namespace Core
     {
         os << "Name:       " << entity._name << std::endl;
         os << "Id:         " << entity._id << std::endl;
-        os << "Components: ";
-        ComponentContainer::const_iterator it;
-        for (it = entity._components.begin(); it != entity._components.end(); ++it)
-            os << (*it).second->GetName() << " | ";
-        os << std::endl;
         return os;
     }
 

@@ -12,6 +12,7 @@
 namespace Core
 {
     REGISTER_CPT("Transform", Transform::Create);
+    std::string Transform::name = "Transform";
 
     Transform::Transform() : Component()
     {

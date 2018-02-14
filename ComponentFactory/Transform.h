@@ -36,6 +36,7 @@ namespace Core
         Math::Vector3 GetRotation()    const;
 
         friend std::ostream& operator<<(std::ostream & os, Transform& trans);
+        static std::string name;
 
     private:
         Math::Vector3 _translation;

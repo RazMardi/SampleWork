@@ -35,6 +35,7 @@ namespace Core
         float GetMass()        const;
 
         friend std::ostream& operator<<(std::ostream & os, RigidBody& rigidbody);
+        static std::string name;
 
     private:
         bool  _isKinematic;
